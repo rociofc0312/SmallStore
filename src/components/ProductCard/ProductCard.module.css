@@ -1,0 +1,31 @@
+.card {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.card__header {
+  text-align: center;
+}
+
+.header__image {
+  width: 75%;
+  height: 130px;
+  object-fit: scale-down;
+}
+
+.card__detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button__detail {
+  background-color: rgb(47, 149, 207);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
