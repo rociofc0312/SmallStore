@@ -1,0 +1,20 @@
+.modal__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal__section {
+  flex-basis: 0;
+  flex-grow: 1;
+  margin: auto;
+}
+
+.modal__section > h3 {
+  margin: 0;
+}
+
+.modal__img {
+  width: 40%;
+  display: block;
+  margin: auto;
+}

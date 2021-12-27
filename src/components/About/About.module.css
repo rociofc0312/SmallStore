@@ -1,0 +1,27 @@
+.about__container {
+  width: 80%;
+  margin: auto;
+}
+
+.about__img {
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.about__img > img {
+  width: 100%;
+}
+
+.about__title {
+  display: flex;
+  align-items: center;
+}
+
+.about__title > h3 {
+  margin: 0;
+}
+
+.about__title > a {
+  margin-left: 10px;
+  color: black;
+}
